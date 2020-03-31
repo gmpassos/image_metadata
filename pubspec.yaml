@@ -1,0 +1,14 @@
+name: image_metadata
+description: Reads image metadata (Exif), including width, height and orientation.
+version: 1.0.0
+homepage: https://github.com/gmpassos/image_metadata
+
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+
+dependencies:
+  exif: ^1.0.2
+
+dev_dependencies:
+  pedantic: ^1.8.0
+  test: ^1.6.0
