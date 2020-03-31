@@ -14,7 +14,7 @@ main() {
   var imageBase64 = '...' ;
   var imageData = ImageData.fromBase64(ImageType.JPEG, imageBase64) ;
 
-  var metadataReader = new ImageMetadataReader(imageData) ;
+  var metadataReader = ImageMetadataReader(imageData) ;
   
   var imageMetadata = metadataReader.read() ;
 
